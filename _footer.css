@@ -1,0 +1,105 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    padding: 5.25rem 0 3.75rem 0;
+}
+
+.footer .logo-studion {
+    justify-self: start;
+    margin: 0
+}
+
+.logo-studion__subtitle {
+    display: block;
+}
+
+.footer__form {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 5.825rem auto;
+    gap: 1.3rem;
+}
+
+.footer__form label {
+    font-size: .875rem;
+    font-weight: 300;
+    line-height: 1,0625rem;
+    text-align: center;
+}
+
+.footer__form fieldset {
+    display: grid;
+    grid-template-columns: auto 3.375rem;
+    border: unset;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footer__form input {
+    height: 2.875rem;
+    background-color: var(--color-primary);
+    border: unset;
+    padding: 1rem;
+    font-size: .875rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+
+.footer__form input::placeholder {
+    color: #000;
+}
+
+.footer__form input:focus {
+    outline: unset;
+}
+
+.footer__form button {
+    cursor: pointer;
+    border: unset;
+    height: 2.875rem;
+    transition: 0.3s all ease;
+}
+
+.footer__form button:hover {
+    color: #fff;
+    background-color: var(--color-copy);
+}
+
+.footer__social {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 0.5rem;
+    justify-self: end;
+}
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+    color:#fff;
+    margin-left: 0.2rem;
+}
+
+.footer__social .fa-twitter {
+    color:#000;
+}
+
+.footer hr {
+    border-color: #fff4;
+}
+
+.footer p {
+    text-align: center;
+    font-weight: 300;
+    font-size: .875rem;
+    margin: 2,5rem 0;
+}
+ 

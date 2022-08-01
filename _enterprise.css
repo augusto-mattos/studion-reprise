@@ -1,0 +1,46 @@
+.institutional.enterprise {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 3.125rem;
+    align-items: center;
+    padding: 4.375rem;
+    padding-bottom: 0rem;
+}
+
+.enterprise p {
+    font-size: 1.0625rem;
+    line-height: 1.6875rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    width: 396px;
+}
+
+.logos {
+    background-color: var(--color-primary);
+    margin-top: 0rem;
+    text-align: center;
+}
+
+.logos p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-top: 4.0625rem;
+    padding-bottom: 4.0625rem;
+    font-size: 25px;
+    line-height: 31px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.logos img {
+    padding-top: 0rem;
+    padding-bottom: 4.0625rem;
+}
+
+.teaser {
+    text-align: center;
+    padding: 73px 61px;
+}
+
+
+

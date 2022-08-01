@@ -1,0 +1,63 @@
+.hero__copy h4 {
+    text-transform: uppercase;
+    color: var(--color-primary)
+}
+
+.testemonial__image {
+    margin-top: 2rem;
+}
+
+.slick-slide img {
+    display: unset;
+}
+
+.slider__testemonials {
+    display: grid;
+    background-color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.slide__testemonials {
+    text-align: center;
+}
+
+.slider__testemonials h3 {
+    display: grid;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 3.125rem;
+    letter-spacing: -2px;
+    color: #000;
+}
+
+.client--profession {
+    font-size: 0.875rem;
+    letter-spacing: 0.1875rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.aspas {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-size: 5.25rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.client--testemonial {
+    font-size: 15px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 0%;
+    padding-bottom: 2rem;
+}
+
+.slick-dots {
+    background-color: var(--color-primary);
+    top: 43.125rem;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 1rem;
+}
