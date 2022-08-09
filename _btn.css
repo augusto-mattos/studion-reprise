@@ -22,6 +22,19 @@
     color: #fff;
 }
 
+.btn--institutional,
+.btn--quote {
+    margin: 0 auto;
+    display: block;
+}
+
+@media screen and (min-width: 1280px) {
+    .btn--institutional,
+    .btn--quote {
+        display: inline;    
+    }
+}
+
 .btn--institutional:hover,
 .btn--contact:hover,
 .btn--tickets:hover {
