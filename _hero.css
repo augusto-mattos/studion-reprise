@@ -75,3 +75,16 @@
             padding-right: 1rem;
         }
 }
+
+.hero__copy h4 {
+    text-transform: uppercase;
+    color: var(--color-primary)
+}
+
+@media screen and (min-width: 1280px) {
+    .hero__copy h4 {
+        text-align: left;
+        text-transform: uppercase;
+        color: var(--color-primary)
+    }
+}
