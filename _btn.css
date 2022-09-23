@@ -23,7 +23,8 @@
 }
 
 .btn--institutional,
-.btn--quote {
+.btn--quote,
+.btn--tickets {
     margin: 0 auto;
     display: block;
 }

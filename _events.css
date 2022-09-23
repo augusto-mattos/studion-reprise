@@ -1,10 +1,18 @@
 .show1 {
-    grid-template-columns: 3fr;
-    width: 500px;
-    padding: 4.375rem 1rem;
-    align-self: center;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .show1 {
+        text-align: unset;
+        grid-template-columns: 3fr;
+        width: 500px;
+        padding: 4.375rem 1rem;
+        align-self: center;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
 }
 
 .expanded {
@@ -13,23 +21,45 @@
 } 
 
 ul {
-    place-items: center;
-    place-content: center;
-    border-bottom: #fff4;
-    margin: 0rem;
+    display: unset;
+}
+
+@media screen and (min-width: 1280px) {
+    ul {
+        display: flex;
+        place-items: center;
+        place-content: center;
+        border-bottom: #fff4;
+        margin: 0rem;
+    }
 }
 
 .show1__image,
-.show2__image,
-.show3__image,
-.show4__image {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    margin-left: 54px;
-    margin-right: 54px;
-    margin-top: 54px;
-    margin-bottom: 41px;
+    .show2__image,
+    .show3__image,
+    .show4__image {
+        object-fit: cover;
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+@media screen and (min-width: 1280px) {
+    .show1__image,
+    .show2__image,
+    .show3__image,
+    .show4__image {
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        margin-left: 3.375rem;
+        margin-right: 3.375rem;
+        margin-top: 3.375rem;
+        margin-bottom: 2.5625rem;
+    }
 }
 
 .show1 details,
@@ -50,7 +80,7 @@ ul {
 
 hr {
     color: #fff4;
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 0rem;
     margin-left: 0px;
     margin-right: 0px;
@@ -58,12 +88,24 @@ hr {
     border-right-width: 0px;
 }
 
+@media screen and (min-width: 1280px) {
+    hr {
+        margin-top: 0rem;
+    }    
+}
+
 .fin {
     color: #fff4;
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 41px;
     margin-left: 0px;
     margin-right: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
+}
+
+@media screen and (min-width: 1280px) {
+    .fin {
+        margin-top: 0rem;
+    }
 }
