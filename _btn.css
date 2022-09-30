@@ -56,3 +56,7 @@
 .btn--tickets {
     align-self: center;
 }
+
+.contact__form button {
+    float: right;
+}
