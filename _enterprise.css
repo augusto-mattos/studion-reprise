@@ -1,32 +1,38 @@
-.institutional.enterprise {
+.enterprise__copy {
     text-align: center;
-    display: grid;
-    gap: 3.125rem;
     align-items: center;
-    padding: 4.375rem;
-    padding-bottom: 0rem;
+    padding: 0 2rem 0 2rem;
+    display: grid;
 }
 
 @media screen and (min-width: 1280px) {
-    .institutional.enterprise {
-        text-align: unset;
-        display: grid;
-        padding: 4.375rem;
-        padding-bottom: 0rem;
+    .enterprise__copy {
+        text-align: left;
+        padding-top: 3rem;
+        padding-right: 0px;
+        padding-left: 0px;
+        grid-template-columns: repeat(2, auto);
+        gap: 2rem;
     }
 }
 
-.enterprise p {
+.enterprise__copy p {
     font-size: 1.0625rem;
     line-height: 1.6875rem;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0;
-    width: 396px;
 }
 
 .man__image {
+    margin-top: 2rem;
     width: 100%;
     padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .man__image {
+        margin-top: 0;
+    }   
 }
 
 .logos {
@@ -62,8 +68,6 @@
 }
 
 .teaser {
-    /*text-align: center;
-    padding: 73px 61px;*/
     position: relative;
     overflow: hidden;
     width: 100%;
