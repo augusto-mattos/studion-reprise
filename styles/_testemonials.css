@@ -9,7 +9,7 @@
 .slider__testemonials {
     display: grid;
     background-color: var(--color-primary);
-    margin-bottom: 1rem;
+    overflow-x: hidden;
 }
 
 .slide__testemonials {
@@ -56,9 +56,10 @@
 
 .slick-dots {
     background-color: var(--color-primary);
-    top: 43.125rem;
+    top: 42rem;
+    bottom: 0;
 }
 
 .slick-dotted.slick-slider {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
