@@ -1,6 +1,12 @@
 .contact {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }    
 }
 
 .contact h3 {
@@ -15,7 +21,14 @@
 
 .contact__info,
 .contact__form {
-    padding: 4rem 0;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact__info,
+    .contact__form {
+        padding: 4rem 0;
+    }    
 }
 
 .contact__info i {
@@ -36,16 +49,37 @@
 
 .contact__info__container,
 .contact__form__container {
-    width: 540px;
+    width: unset;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact__info__container,
+    .contact__form__container {
+        width: 540px;
+    }
 }
 
 .contact__info__container {
-    float: right;
-    padding-right: 7.125rem;
+    float: right;        
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact__info__container {
+        padding-right: 7.125rem;        
+    }
 }
 
 .contact__form__container {
-    padding-left: 7.125rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .contact__form__container {
+        padding-left: 7.125rem;
+    }    
 }
 
 .contact__form {
@@ -77,12 +111,14 @@
     outline: unset;
 }
 
-
-.contact__form button {
-    float: right;
-}
-
 .maps,
 .maps iframe {
+    height: 20rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .maps,
+    .maps iframe {
     height: 36.5rem;
+}
 }

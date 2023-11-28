@@ -1,8 +1,3 @@
-.hero__copy h4 {
-    text-transform: uppercase;
-    color: var(--color-primary)
-}
-
 .testemonial__image {
     margin-top: 2rem;
 }
@@ -46,11 +41,17 @@
 }
 
 .client--testemonial {
-    font-size: 15px;
+    font-size: 25px;
     line-height: 30px;
     color: #000000;
     padding-top: 0%;
     padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .client--testemonial {
+        font-size: 15px;
+    }
 }
 
 .slick-dots {
